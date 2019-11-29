@@ -4,6 +4,16 @@ module FormsLab
   class App < Sinatra::Base
 
     # code other routes/actions here
+    get '/' do
+      erb :root
+    end
 
+    get '/new' do
+      
+    end
+
+    post '/show' do
+       
+    end
   end
 end
